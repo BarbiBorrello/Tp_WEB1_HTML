@@ -4,6 +4,14 @@
 <head>
     <meta charset="utf-8"></meta>
     <title>Ejercicio 10</title> 
+
+    <style>
+        table{
+        
+        border-collapse: collapse;
+        text-align: center;
+    }
+    </style>
 </head>
 
 <body>
@@ -83,22 +91,48 @@
         <h3>Una tabla con 3 columnas, donde la primera columna tiene 2 celdas, la segunda
          columna 1 celda y la tercera columna 3 celdas (filas)</h3>   
          
-         <table border="1">
+         <table border="1" width="500px">
 
                 <tr>
-                        <td>A</td>
-                        <td colspan="3">C</td>
-                        <td>D</td>
+                    <td rowspan="3">A</td>
+                    <td rowspan="6">C</td>
+                    <td rowspan="2">D</td>
                 </tr>
-
+        
                 <tr>
-                        <td rowspan="3">B</td>
-
+                <!-- <td>4</td>-->   
+                <!-- <td>5</td>--> 
+                <!-- <td>6</td>--> 
+                
                 </tr>
-
-
-        </table>
-
+        
+                <tr>
+                 <!-- <td>7</td>--> 
+                 <!-- <td>8</td>--> 
+                    <td rowspan="2">E</td>
+                </tr>
+        
+                <tr>
+                <td rowspan="3">B</td>
+                 <!-- <td>11</td>-->
+                  <!-- <td>12</td>-->
+                </tr>
+        
+                <tr>
+                <!-- <td>13</td>--> 
+                 <!-- <td>14</td>-->
+                    <td rowspan="2">F</td>
+                </tr>
+        
+                <tr>
+                <!-- <td>16</td>--> 
+                 <!-- <td>17</td>-->
+                 <!-- <td>18</td>-->
+                </tr>
+        
+        
+        
+            </table>
 
 
     </p>
